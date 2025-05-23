@@ -19,13 +19,13 @@ const HeroSection = () => {
             style={{ transition: 'opacity 0.8s, transform 0.8s' }}
           >
             <span className="text-portfolio-blue">Hello, I'm</span>
-            <br /> Your Name
+            <br /> Karan Dave
           </h1>
           <p 
             className={`text-xl md:text-2xl text-gray-600 mb-8 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
             style={{ transition: 'opacity 0.8s 0.2s, transform 0.8s 0.2s' }}
           >
-            Full Stack Developer | UX Designer | Creative Problem Solver
+            DevOps Engineer | Site Reliablity Engineer | Cloud Engineer
           </p>
           <div 
             className={`flex flex-col sm:flex-row items-center justify-center gap-4 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}

@@ -41,7 +41,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-portfolio-dark-blue">Portfolio</Link>
+          <Link to="/" className="text-2xl font-bold text-portfolio-dark-blue"></Link>
           
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
